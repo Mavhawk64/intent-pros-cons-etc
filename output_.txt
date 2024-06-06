@@ -23,7 +23,7 @@ Existing Libraries:
 				- popularity: Niche popularity in academic and research settings.
 				- DealBreaker: If ease of use is a priority.
 				- notes: Great for advanced language processing tasks.
-				- source: https://github.com/langgraph
+				- source: https://python.langchain.com/v0.1/docs/langgraph/
 
 Just ask LLM:
 		* General Pros: Highly flexible and can handle a wide range of queries.
@@ -43,7 +43,7 @@ Just ask LLM:
 				- popularity: Moderately popular.
 				- DealBreaker: If cutting-edge performance is needed.
 				- notes: Suitable for mid-range tasks requiring balance.
-				- source: https://github.com/mixtral
+				- source: https://mistral.ai/news/mixtral-of-experts/
 
 Specialized Intent Models (NLPS):
 		* General Pros: Tailored for specific intent detection tasks, high accuracy.
@@ -56,7 +56,7 @@ Specialized Intent Models (NLPS):
 				- popularity: Popular in research.
 				- DealBreaker: Resource constraints.
 				- notes: Excellent for precise intent and entity recognition.
-				- source: https://github.com/bert/jointBERT
+				- source: https://github.com/monologg/JointBERT
 		DIET:
 				- pros: Efficient, good performance on multiple tasks.
 				- cons: Requires careful tuning.
@@ -70,7 +70,7 @@ Specialized Intent Models (NLPS):
 				- popularity: Highly popular.
 				- DealBreaker: High computational requirements.
 				- notes: Strong performer across multiple NLP benchmarks.
-				- source: https://github.com/facebookresearch/roberta
+				- source: https://ai.meta.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/
 		ALBERT:
 				- pros: Efficient and scalable, reduced model size.
 				- cons: May trade off some accuracy for efficiency.
@@ -111,7 +111,7 @@ NLPs/NLU that can handle intent detection and routing:
 				- popularity: Popular in deep learning applications.
 				- DealBreaker: Resource usage.
 				- notes: Foundation for many advanced NLP models.
-				- source: https://github.com/tensorflow/transformer
+				- source: https://www.tensorflow.org/api_docs/python/tfm/nlp/layers/Transformer
 		CRNN:
 				- pros: Combines CNN and RNN strengths, good for sequence data.
 				- cons: Complex to implement, may require fine-tuning.
