@@ -1,0 +1,168 @@
+Existing Libraries:
+		* General Pros: 
+		* General Cons: 
+		* Class DealBreaker: 
+		* General Notes: 
+  AutoGen:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  CrewAI:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  LangGraph:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+
+Just ask LLM:
+		* General Pros: 
+		* General Cons: 
+		* Class DealBreaker: 
+		* General Notes: 
+  GPT:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  Mixtral:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+
+Specialized Intent Models (NLPS):
+		* General Pros: 
+		* General Cons: 
+		* Class DealBreaker: 
+		* General Notes: 
+  jointBert:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  DIET:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  RoBERTa:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  ALBERT:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  XLNet:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+
+NLPs/NLU that can handle intent detection and routing:
+		* General Pros: 
+		* General Cons: 
+		* Class DealBreaker: 
+		* General Notes: 
+  RASA:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  BERT:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  Transformer:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  CRNN:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  LSTM (Long Short-Term Memory):
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  Random Forests.:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  Naive Bayes:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+
+Intent Algorithms:
+		* General Pros: 
+		* General Cons: 
+		* Class DealBreaker: 
+		* General Notes: 
+  Support Vector Machines (SVM):
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  Random Forests:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  Naive Bayes:
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  Recurrent Neural Networks (RNN):
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  Convolutional Neural Networks (CNN):
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+  Long Short-Term Memory (LSTM):
+				- pros: 
+				- cons: 
+				- popularity: 
+				- DealBreaker: 
+				- notes: 
+

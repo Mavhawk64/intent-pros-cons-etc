@@ -1,0 +1,272 @@
+{
+    "Existing Libraries": {
+        "General Pros": "",
+        "General Cons": "",
+        "Class DealBreaker": "",
+        "General Notes": "",
+        "list": [
+            {
+                "AutoGen": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "CrewAI": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "LangGraph": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            }
+        ]
+    },
+    "Just ask LLM": {
+        "General Pros": "",
+        "General Cons": "",
+        "Class DealBreaker": "",
+        "General Notes": "",
+        "list": [
+            {
+                "GPT": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "Mixtral": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            }
+        ]
+    },
+    "Specialized Intent Models (NLPS)": {
+        "General Pros": "",
+        "General Cons": "",
+        "Class DealBreaker": "",
+        "General Notes": "",
+        "list": [
+            {
+                "jointBert": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "DIET": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "RoBERTa": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "ALBERT": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "XLNet": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            }
+        ]
+    },
+    "NLPs/NLU that can handle intent detection and routing": {
+        "General Pros": "",
+        "General Cons": "",
+        "Class DealBreaker": "",
+        "General Notes": "",
+        "list": [
+            {
+                "RASA": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "BERT": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "Transformer": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "CRNN": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "LSTM (Long Short-Term Memory)": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "Random Forests": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "Naive Bayes": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            }
+        ]
+    },
+    "Intent Algorithms": {
+        "General Pros": "",
+        "General Cons": "",
+        "Class DealBreaker": "",
+        "General Notes": "",
+        "list": [
+            {
+                "Support Vector Machines (SVM)": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "Random Forests": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "Naive Bayes": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "Recurrent Neural Networks (RNN)": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "Convolutional Neural Networks (CNN)": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            },
+            {
+                "Long Short-Term Memory (LSTM)": {
+                    "pros": "",
+                    "cons": "",
+                    "popularity": "",
+                    "DealBreaker": "",
+                    "notes": "",
+                    "source": ""
+                }
+            }
+        ]
+    }
+}

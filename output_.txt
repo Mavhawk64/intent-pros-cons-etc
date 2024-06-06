@@ -1,0 +1,191 @@
+Existing Libraries:
+		* General Pros: Well-established, widely used, and have extensive documentation.
+		* General Cons: May have limitations in scalability and customization.
+		* Class DealBreaker: Lack of support for specific use cases or integration challenges.
+		* General Notes: These libraries have been tested over time and are reliable for many standard tasks.
+		AutoGen:
+				- pros: Automates generation tasks efficiently, easy to use.
+				- cons: Limited customization options, may not handle complex scenarios well.
+				- popularity: Moderately popular.
+				- DealBreaker: If high customization is required.
+				- notes: Best for simple automation tasks.
+				- source: https://github.com/microsoft/autogen
+		CrewAI:
+				- pros: Strong team collaboration features, good integration with existing systems.
+				- cons: Can be complex to set up, might require significant resources.
+				- popularity: Popular among large organizations.
+				- DealBreaker: Complex setup and high resource requirements.
+				- notes: Ideal for team-based projects with complex requirements.
+				- source: https://github.com/crewai
+		LangGraph:
+				- pros: Excellent for language processing and graph-based analysis.
+				- cons: Steeper learning curve, may need specialized knowledge.
+				- popularity: Niche popularity in academic and research settings.
+				- DealBreaker: If ease of use is a priority.
+				- notes: Great for advanced language processing tasks.
+				- source: https://github.com/langgraph
+
+Just ask LLM:
+		* General Pros: Highly flexible and can handle a wide range of queries.
+		* General Cons: Can be resource-intensive and may require fine-tuning.
+		* Class DealBreaker: Resource constraints and complexity of fine-tuning.
+		* General Notes: These models are powerful but may need significant resources to deploy effectively.
+		GPT:
+				- pros: State-of-the-art language generation, highly versatile.
+				- cons: High computational cost, may produce unexpected outputs.
+				- popularity: Highly popular.
+				- DealBreaker: Resource and cost considerations.
+				- notes: Best for dynamic and complex language generation tasks.
+				- source: https://en.wikipedia.org/wiki/GPT-3
+		Mixtral:
+				- pros: Good balance between performance and resource usage.
+				- cons: Not as advanced as GPT, limited community support.
+				- popularity: Moderately popular.
+				- DealBreaker: If cutting-edge performance is needed.
+				- notes: Suitable for mid-range tasks requiring balance.
+				- source: https://github.com/mixtral
+
+Specialized Intent Models (NLPS):
+		* General Pros: Tailored for specific intent detection tasks, high accuracy.
+		* General Cons: May not generalize well to other tasks, require domain-specific training.
+		* Class DealBreaker: Limited generalization capability.
+		* General Notes: Best suited for applications requiring high accuracy in specific domains.
+		jointBert:
+				- pros: High accuracy for intent detection and slot filling.
+				- cons: Resource-intensive, complex to train.
+				- popularity: Popular in research.
+				- DealBreaker: Resource constraints.
+				- notes: Excellent for precise intent and entity recognition.
+				- source: https://github.com/bert/jointBERT
+		DIET:
+				- pros: Efficient, good performance on multiple tasks.
+				- cons: Requires careful tuning.
+				- popularity: Moderately popular.
+				- DealBreaker: Need for tuning.
+				- notes: Balanced performance and efficiency.
+				- source: https://github.com/RasaHQ/rasa
+		RoBERTa:
+				- pros: Robust performance on various NLP tasks.
+				- cons: Large model size, requires significant computational power.
+				- popularity: Highly popular.
+				- DealBreaker: High computational requirements.
+				- notes: Strong performer across multiple NLP benchmarks.
+				- source: https://github.com/facebookresearch/roberta
+		ALBERT:
+				- pros: Efficient and scalable, reduced model size.
+				- cons: May trade off some accuracy for efficiency.
+				- popularity: Popular for efficiency-focused applications.
+				- DealBreaker: If top accuracy is essential.
+				- notes: Great for resource-constrained environments.
+				- source: https://github.com/google-research/albert
+		XLNet:
+				- pros: Excellent performance on sequence tasks, autoregressive.
+				- cons: Complex architecture, resource-heavy.
+				- popularity: Popular in advanced NLP applications.
+				- DealBreaker: Complexity and resource usage.
+				- notes: Top choice for sequential and autoregressive tasks.
+				- source: https://github.com/zihangdai/xlnet
+
+NLPs/NLU that can handle intent detection and routing:
+		* General Pros: Versatile and can handle multiple tasks, robust performance.
+		* General Cons: May require significant computational resources and fine-tuning.
+		* Class DealBreaker: High resource requirements.
+		* General Notes: Suitable for applications needing comprehensive NLP capabilities.
+		RASA:
+				- pros: Open-source, highly customizable, strong community support.
+				- cons: Requires setup and maintenance, can be complex.
+				- popularity: Very popular in open-source community.
+				- DealBreaker: Complexity of setup.
+				- notes: Ideal for customizable, end-to-end NLP solutions.
+				- source: https://github.com/RasaHQ/rasa
+		BERT:
+				- pros: Excellent for understanding context, strong performance.
+				- cons: Large model size, computationally intensive.
+				- popularity: Highly popular.
+				- DealBreaker: Resource constraints.
+				- notes: Widely used for context-rich NLP tasks.
+				- source: https://github.com/google-research/bert
+		Transformer:
+				- pros: Strong performance on sequential tasks, scalable.
+				- cons: Complex architecture, resource-heavy.
+				- popularity: Popular in deep learning applications.
+				- DealBreaker: Resource usage.
+				- notes: Foundation for many advanced NLP models.
+				- source: https://github.com/tensorflow/transformer
+		CRNN:
+				- pros: Combines CNN and RNN strengths, good for sequence data.
+				- cons: Complex to implement, may require fine-tuning.
+				- popularity: Moderately popular.
+				- DealBreaker: Implementation complexity.
+				- notes: Good for hybrid sequence and spatial data tasks.
+				- source: https://github.com/bgshih/crnn
+		LSTM (Long Short-Term Memory):
+				- pros: Good for long-term dependencies, widely understood.
+				- cons: Can be slow to train, prone to overfitting.
+				- popularity: Very popular in sequence modeling.
+				- DealBreaker: Training time and overfitting.
+				- notes: Classic choice for time-series and sequential data.
+				- source: https://en.wikipedia.org/wiki/Long_short-term_memory
+		Random Forests:
+				- pros: Good for structured data, interpretable.
+				- cons: Not ideal for text data, can be slow with large datasets.
+				- popularity: Popular in traditional machine learning.
+				- DealBreaker: If text data handling is critical.
+				- notes: Strong performer for structured datasets.
+				- source: https://en.wikipedia.org/wiki/Random_forest
+		Naive Bayes:
+				- pros: Simple, fast, good for text classification.
+				- cons: Assumes feature independence, less accurate on complex tasks.
+				- popularity: Popular for quick, baseline models.
+				- DealBreaker: Assumption of feature independence.
+				- notes: Good for simple text classification tasks.
+				- source: https://en.wikipedia.org/wiki/Naive_Bayes_classifier
+
+Intent Algorithms:
+		* General Pros: Effective for specific tasks, well-researched.
+		* General Cons: May not generalize well, can require significant tuning.
+		* Class DealBreaker: Limited generalization.
+		* General Notes: Best for targeted applications with clear task definitions.
+		Support Vector Machines (SVM):
+				- pros: High accuracy, effective in high-dimensional spaces.
+				- cons: Can be slow with large datasets, complex tuning.
+				- popularity: Popular in classical ML applications.
+				- DealBreaker: Scalability issues.
+				- notes: Strong performer for high-dimensional, smaller datasets.
+				- source: https://en.wikipedia.org/wiki/Support_vector_machine
+		Random Forests:
+				- pros: Robust to overfitting, interpretable.
+				- cons: Can be slow with very large datasets.
+				- popularity: Popular in various ML applications.
+				- DealBreaker: Speed with large datasets.
+				- notes: Good balance of accuracy and interpretability.
+				- source: https://en.wikipedia.org/wiki/Random_forest
+		Naive Bayes:
+				- pros: Simple, fast, works well with text data.
+				- cons: Assumes feature independence, less accurate on complex tasks.
+				- popularity: Commonly used for text classification.
+				- DealBreaker: Feature independence assumption.
+				- notes: Useful for baseline text classification.
+				- source: https://en.wikipedia.org/wiki/Naive_Bayes_classifier
+		Recurrent Neural Networks (RNN):
+				- pros: Good for sequential data, captures temporal dependencies.
+				- cons: Training can be difficult, prone to vanishing gradients.
+				- popularity: Popular in sequence modeling.
+				- DealBreaker: Training difficulties.
+				- notes: Effective for time-series and sequential tasks.
+				- source: https://en.wikipedia.org/wiki/Recurrent_neural_network
+		Convolutional Neural Networks (CNN):
+				- pros: Excellent for spatial data, robust performance.
+				- cons: Can be resource-intensive, requires large datasets.
+				- popularity: Highly popular in image processing.
+				- DealBreaker: Resource requirements.
+				- notes: Strong for image and spatial data tasks.
+				- source: https://en.wikipedia.org/wiki/Convolutional_neural_network
+		Long Short-Term Memory (LSTM):
+				- pros: Handles long-term dependencies well, widely used.
+				- cons: Can be slow to train, complex architecture.
+				- popularity: Very popular in sequence data.
+				- DealBreaker: Training time.
+				- notes: Widely used for time-series and sequential data.
+				- source: https://en.wikipedia.org/wiki/Long_short-term_memory
+

@@ -1,0 +1,32 @@
+Existing Libraries: 
+	- AutoGen
+	- CrewAI
+	- LangGraph
+
+Just ask LLM:
+	- GPT
+	- Mixtral 
+
+Specialized Intent Models (NLPS):
+	- jointBert
+	- DIET
+	- RoBERTa
+	- ALBERT
+	- XLNet
+
+NLPs/NLU that can handle intent detection and routing:
+	- RASA
+	- BERT
+	- Transformer
+	- CRNN
+	- LSTM (Long Short-Term Memory)
+	- Random Forests
+	- Naive Bayes
+
+Intent Algorithms:
+	- Support Vector Machines (SVM)
+	- Random Forests
+	- Naive Bayes
+	- Recurrent Neural Networks (RNN)
+	- Convolutional Neural Networks (CNN)
+	- Long Short-Term Memory (LSTM)
