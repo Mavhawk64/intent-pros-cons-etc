@@ -34,6 +34,16 @@
                     "notes": "Great for advanced language processing tasks.",
                     "source": "https://python.langchain.com/v0.1/docs/langgraph/"
                 }
+            },
+            {
+                "spaCy": {
+                    "pros": "Support for many languages, efficient processing, pretrained transformers and word vectors.",
+                    "cons": "Decently steep learning curve.",
+                    "popularity": "Very popular in NLP community.",
+                    "DealBreaker": "If you need a simpler tool.",
+                    "notes": "Great for NLP tasks, especially for non-English languages.",
+                    "source": "https://spacy.io/"
+                }
             }
         ]
     },
