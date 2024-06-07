@@ -44,6 +44,16 @@
                     "notes": "Great for NLP tasks, especially for non-English languages.",
                     "source": "https://spacy.io/"
                 }
+            },
+            {
+                "DSPy": {
+                    "pros": "Modular and extensible, supports multiple NLP tasks.",
+                    "cons": "Relatively new, limited community support.",
+                    "popularity": "Gaining popularity in research.",
+                    "DealBreaker": "Lack of maturity and support.",
+                    "notes": "Promising for flexible NLP pipelines and experiments.",
+                    "source": "https://dspy-docs.vercel.app/"
+                }
             }
         ]
     },
