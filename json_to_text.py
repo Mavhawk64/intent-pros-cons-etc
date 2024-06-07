@@ -6,12 +6,14 @@ with open("output_.json", "r") as f:
         for key, value in data.items():
             f.write(f"{key}:\n")
             for llave, valor in value.items():
-                if llave == "list":
+                if llave == "Technologies":
                     continue
                 f.write(f"\t\t* {llave}: {valor}\n")
-            for item in value["list"]:
-                for item_key, item_value in item.items():
-                    f.write(f"\t\t{item_key}:\n")
-                    for key, value in item_value.items():
-                        f.write(f"\t\t\t\t- {key}: {value}\n")
+            for item in value["Technologies"]:
+                name = item["name"]
+                f.write(f"\t\t{name}:\n")
+                for llave, valor in item.items():
+                    if llave == "name":
+                        continue
+                    f.write(f"\t\t\t\t- {llave}: {valor}\n")
             f.write("\n")
