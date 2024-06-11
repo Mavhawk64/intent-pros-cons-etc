@@ -34,11 +34,11 @@
             }
         ]
     },
-    "NNs": {
-        "General Pros": "Tailored for specific intent detection tasks, high accuracy.",
-        "General Cons": "May not generalize well to other tasks, require domain-specific training.",
-        "Class DealBreaker": "Limited generalization capability.",
-        "General Notes": "Best suited for applications requiring high accuracy in specific domains.",
+    "Other LMs": {
+        "General Pros": "Specialized for specific tasks, may be more efficient than general-purpose models.",
+        "General Cons": "May not be as versatile as large language models.",
+        "Class DealBreaker": "If the task requires a wide range of capabilities.",
+        "General Notes": "These models are designed for specific use cases and can be highly effective within their domain.",
         "Technologies": [
             {
                 "name": "jointBert",
@@ -84,23 +84,6 @@
                 "DealBreaker": "Complexity and resource usage.",
                 "notes": "Top choice for sequential and autoregressive tasks.",
                 "source": "https://github.com/zihangdai/xlnet"
-            }
-        ]
-    },
-    "MLs": {
-        "General Pros": "Versatile and can handle multiple tasks, robust performance.",
-        "General Cons": "May require significant computational resources and fine-tuning.",
-        "Class DealBreaker": "High resource requirements.",
-        "General Notes": "Suitable for applications needing comprehensive NLP capabilities.",
-        "Technologies": [
-            {
-                "name": "RASA",
-                "pros": "Open-source, highly customizable, strong community support.",
-                "cons": "Requires setup and maintenance, can be complex.",
-                "popularity": "Very popular in open-source community.",
-                "DealBreaker": "Complexity of setup.",
-                "notes": "Ideal for customizable, end-to-end NLP solutions.",
-                "source": "https://github.com/RasaHQ/rasa"
             },
             {
                 "name": "BERT",
@@ -113,7 +96,7 @@
             }
         ]
     },
-    "Other": {
+    "Well-Rounded Libraries": {
         "General Pros": "Well-established, widely used, and have extensive documentation.",
         "General Cons": "May have limitations in scalability and customization.",
         "Class DealBreaker": "Lack of support for specific use cases or integration challenges.",
@@ -145,6 +128,15 @@
                 "DealBreaker": "If ease of use is a priority.",
                 "notes": "Great for advanced language processing tasks.",
                 "source": "https://python.langchain.com/v0.1/docs/langgraph/"
+            },
+            {
+                "name": "RASA",
+                "pros": "Open-source, highly customizable, strong community support.",
+                "cons": "Requires setup and maintenance, can be complex.",
+                "popularity": "Very popular in open-source community.",
+                "DealBreaker": "Complexity of setup.",
+                "notes": "Ideal for customizable, end-to-end NLP solutions.",
+                "source": "https://github.com/RasaHQ/rasa"
             },
             {
                 "name": "spaCy",
